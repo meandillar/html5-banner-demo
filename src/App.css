@@ -1,0 +1,76 @@
+html, body, h1, p, img, button {
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 300px;
+  height: 250px;
+  background-color: #2560d6;
+  position: relative;
+}
+
+.title, button, .bg-image {
+  position: absolute;
+}
+
+.title {
+  top: 22px;
+  right: 29px;
+  text-align: center;
+}
+
+h1, p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 0.8em;
+  letter-spacing: 0.06em;
+}
+
+span {
+  position: relative;
+  display: inline-block;
+}
+
+button {
+  bottom: 23px;
+  right: 29px;
+  color: #2560d6;
+  font-weight: 700;
+  padding: 0.4em 1em;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 3px 1px #144bb9;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.bg-image {
+  top: 15%;
+  left: 29px;
+  width: 65%;
+  height: 65%;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.wrapper2 {
+  background-color: #2b2b2b;
+}
